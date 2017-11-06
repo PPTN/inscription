@@ -1,0 +1,8 @@
+<?php
+// Copy this file to config.phar
+
+$conf['db_inscription'] = new PDO("sqlite:../inscription.sqlite3");
+$conf['db_municipalites'] = new PDO("sqlite:../municipalites.sqlite3");
+$conf['site_url'] = "http://www.partipirate.tn";
+$conf['social_hook_url'] = "";
+$conf['email'] = "amine@pirate.tn";
